@@ -6,7 +6,6 @@ function formatTime(czas) {
     var minutes = (resztaSekund - seconds) / 60;
     var sformatowanyCzas = '';
 
-    // jak nie ma godzin albo minut albo sekund to nie wyświetlam
     if (hours !== 0) {
         sformatowanyCzas += hours + ' godz. ';
     }

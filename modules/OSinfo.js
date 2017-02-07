@@ -1,6 +1,7 @@
 var os = require('os');
 var colors = require('colors');
-var formatTime = require('./FormatTime')
+var formatTime = require('./FormatTime');
+
 
 function getOSinfo() {
     var type = os.type();
